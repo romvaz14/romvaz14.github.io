@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+   background-color: #d3d2df;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+
+    background-color:#d3d2df;
+    margin-bottom: 10px;
+    /*position: relative;*/
+    padding: 76px;
+}
+
+h1{
+    position: absolute;
+    left: 352px;
+}
+
+
+nav{
+position: absolute;
+right: 10px;
+top: 10px;
+
+}
+
+nav ul{
+
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+}
+
+
+.contenedor_limite{
+    margin: 0% auto;
+    max-width: 100%;
+    text-align: center;
+    background-color: #0d0d0e;
+    padding: 25px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    
+}
+.contenedor_limite2{
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    background-color: #bdbddb;
+}
+.contenedor_padre{
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+   background-color:#ffffff;
+
+}
+
+
+
+
+.card{
+    background-color: rgb(208, 203, 212);
+    width: 300px;
+    border: 5px solid;
+    border-radius: 10px;
+
+    padding: 25px 50px 25px 50px;
+    text-align: center;
+
+}
+
+.card img{
+
+    max-width: 100%;
+}
+
+
+footer{
+
+    background: #e7e7eb;
+}
+
+
+.tipografia {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  
+.tipografia2 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    flex-direction: column;
+  }
+
+  /****************media query****************/
+
+@media screen and( max-width: 725px){
+ header{
+   flex-direction: column;
+   align-items: flex-start;
+ }
+
+ nav ul{
+   flex-direction: column;
+
+ }
+  }
+  /*****************codigo grilla*************/
+.parent {
+max-width: 2000px;
+display: grid;
+background-color: #0d0d0e;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+div img{
+
+    
+    
+    
+}
+/********************************************************/
+
+nav a:hover {
+     color: rgb(253, 253, 253);
+     text-decoration: none;
+ }
+
+ nav a{
+    text-decoration: none;
+    transform: scale(2);
+ }
